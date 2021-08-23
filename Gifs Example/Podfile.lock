@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.4.3)
+  - GfycatApiKit (0.0.28):
+    - AFNetworking (~> 4.0)
+    - UICKeyChainStore (~> 2.1)
+  - GfycatKit (0.0.46):
+    - GfycatKit/Core (= 0.0.46)
+  - GfycatKit/Browser (0.0.46):
+    - GfycatApiKit (~> 0.0.16)
+    - YYImage/WebP
+    - YYWebImage
+  - GfycatKit/Core (0.0.46):
+    - GfycatKit/Browser
+  - Giphy (2.1.10):
+    - libwebp
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - UICKeyChainStore (2.2.1)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - GfycatKit
+  - Giphy
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - AFNetworking
+    - Alamofire
+    - GfycatApiKit
+    - GfycatKit
+    - Giphy
+    - libwebp
+    - SDWebImage
+    - UICKeyChainStore
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  GfycatApiKit: 4a2c1c339a537a4eb2ba3b4cc7cf1aeddecf389e
+  GfycatKit: fccbcca916576a3fd84b517861b7ea33ff608685
+  Giphy: 2a43fc639f7fe3df3aaad4c8b3ffbfbbc8c6f0a9
+  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 01a559c2222f24340bf952b5603e6c56308030a8
+
+COCOAPODS: 1.10.1
